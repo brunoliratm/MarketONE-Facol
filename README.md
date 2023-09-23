@@ -5,4 +5,4 @@ This repository contains a code for a Market system implemented in JAVA as part 
 
 <div><h1>Diagram</h1></div>
 
-![Market1](image/Market.jpg)
+![Market1](image/Market.png)
