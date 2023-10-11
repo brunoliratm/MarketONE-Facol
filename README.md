@@ -2,10 +2,11 @@
 
 <h2 align="center">
 This repository contains a code for a <a href="MarketONE.java">Market system implemented in JAVA</a> as part of a project for my 🏫college
-Has 2 versions:
-  -Full Version (901 lines)
-  -Lite Version ()
 </h2>
+<p align="left"><strong>The code has 2 versions:<br>
+  -🔥Full Version (901 lines)<br>
+  -💧Lite Version (303 lines)</strong>
+</p>
 
 ![Market](image/market.png)
 
@@ -20,6 +21,7 @@ Has 2 versions:
 <div align="center">
   <h1>🧮Diagrams</h1>
   <h3>Full version</h3>
+  ![Market](image/MarketONE.jpg)
   <h3></h3>
 </div>
-![Market1](image/MarketONE.jpg)
+
