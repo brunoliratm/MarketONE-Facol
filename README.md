@@ -5,7 +5,7 @@ This repository contains a code for a <a href="MarketONE.java">Market system imp
 </h2>
 <p align="left"><strong>The code has 2 versions:<br>
   -🔥Full Version (901 lines)<br>
-  -💧Lite Version (303 lines)</strong>
+  -💧Lite Version (311 lines)</strong>
 </p>
 
 ![Market](image/market.png)
