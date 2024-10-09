@@ -13,7 +13,6 @@ This repository contains a code for a <a href="MarketONE.java">Market system imp
 <div align="center">
   <h1>💻Code</h1>
   <h3>🔥<a href="MarketONE.java">Full version of the project</a></h3>
-  <h3>💧<a href="StoreONE.java">Lite version of the project</a></h3>
 </div>
 <br>
 <br>
