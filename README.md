@@ -1,7 +1,10 @@
  <div align="center" text-align="center">
     <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Market%20ONE&reversal=false">
-    This repository contains the source code for MarketONE, a market system implemented in Java as part of a 🏫college project at UNIFACOL.
+    <br>
+This repository contains the source code for MarketONE, a market system implemented in Java as part of a 🏫college project at UNIFACOL.
 </div>
+<br>
+<br>
 
 ## 💻 Project Overview
 
@@ -27,6 +30,7 @@ MarketONE is a Java-based application that simulates a comprehensive market syst
   - Managing employee schedules and tasks
 
 MarketONE offers a robust and efficient solution for both customers and businesses, providing a seamless online shopping experience.
+<br>
 
 ## 📂 Installation and Usage
 
@@ -45,6 +49,7 @@ MarketONE offers a robust and efficient solution for both customers and business
     ```bash
    cd MarketONE-UNIFACOL
 3. Execute `Main.java`
+<br>
 
 ## 🧮 Diagram
 
@@ -53,7 +58,7 @@ MarketONE offers a robust and efficient solution for both customers and business
 
 <img src="image/MarketONEDiagrama.png" alt="Diagram full version">
 </details>
-
+<br>
 
 ## 🤝 Contributing
 If you'd like to contribute to this project, feel free to:
@@ -62,6 +67,7 @@ If you'd like to contribute to this project, feel free to:
 - Create a new branch for your changes.
 - Implement your modifications.
 - Submit a pull request for review.
+<br>
 
 ## ⚖️ License
 
