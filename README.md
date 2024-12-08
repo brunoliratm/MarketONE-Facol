@@ -1,7 +1,16 @@
- <div align="center" text-align="center">
+<div align="center" text-align="center">
     <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Market%20ONE&reversal=false">
     <br>
-This repository contains the source code for MarketONE, a market system implemented in Java as part of a 🏫college project at UNIFACOL.
+    <p>
+        <a href="https://github.com/brunoliratm/MarketONE-UNIFACOL/issues">
+            <img src="https://img.shields.io/github/issues/brunoliratm/MarketONE-UNIFACOL?style=for-the-badge" alt="Issues">
+        </a>
+        <a href="https://github.com/brunoliratm/MarketONE-UNIFACOL/blob/main/LICENSE">
+            <img src="https://img.shields.io/github/license/brunoliratm/MarketONE-UNIFACOL?style=for-the-badge" alt="License">
+        </a>
+    </p>
+    <br>
+    This repository contains the source code for MarketONE, a market system implemented in Java as part of a 🏫college project at UNIFACOL.
 </div>
 <br>
 <br>
@@ -10,21 +19,21 @@ This repository contains the source code for MarketONE, a market system implemen
 
 MarketONE is a Java-based application that simulates a comprehensive market system. It provides users with a user-friendly interface to perform various tasks, including:
 
-- Product Management:
+- **Product Management:**
   - Adding new products to the marketplace
   - Editing existing product details
   - Removing products from the system
   - Viewing a detailed list of all available products
-- Shopping Cart Functionality:
+- **Shopping Cart Functionality:**
   - Adding and removing products from the shopping cart
   - Calculating the total cost of items in the cart
   - Applying discounts or coupons
   - Finalizing purchases
-- User Accounts:
+- **User Accounts:**
   - Creating and managing customer accounts
   - Tracking purchase history and order details
   - Providing secure login and password management
-- Employee Management (if applicable):
+- **Employee Management:**
   - Adding and removing employees
   - Assigning roles and permissions
   - Managing employee schedules and tasks
@@ -36,18 +45,18 @@ MarketONE offers a robust and efficient solution for both customers and business
 
 **Prerequisites:**
 
-* Java Development Kit (JDK) version 22 or above ([ JDK Download ](https://www.oracle.com/java/technologies/downloads/))
+* Java Development Kit (JDK) version 21 or above ([JDK Download](https://www.oracle.com/java/technologies/downloads/))
 
 **Instructions:**
 
 1. Clone this repository:
-
    ```bash
-   git clone https://brunoliratm/MarketONE-UNIFACOL.git
-   
+   git clone https://github.com/brunoliratm/MarketONE-UNIFACOL.git
+   ```
 2. Navigate to the project directory:
-    ```bash
+   ```bash
    cd MarketONE-UNIFACOL
+   ```
 3. Execute `Main.java`
 <br>
 
