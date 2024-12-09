@@ -1,7 +1,7 @@
 <div align="center" text-align="center">
     <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Market%20ONE&reversal=false">
     <br>
-    <p>
+    <p></p>
         <a href="https://github.com/brunoliratm/MarketONE-UNIFACOL/issues">
             <img src="https://img.shields.io/github/issues/brunoliratm/MarketONE-UNIFACOL?style=for-the-badge" alt="Issues">
         </a>
@@ -20,25 +20,21 @@
 MarketONE is a Java-based application that simulates a comprehensive market system. It provides users with a user-friendly interface to perform various tasks, including:
 
 - **Product Management:**
-  - Adding new products to the marketplace
-  - Editing existing product details
-  - Removing products from the system
-  - Viewing a detailed list of all available products
+  - `addProduct`: Adding new products to the marketplace
+  - `editProduct`: Editing existing product details
+  - `removeProduct`: Removing products from the system
+  - `listProducts`: Viewing a detailed list of all available products
 - **Shopping Cart Functionality:**
-  - Adding and removing products from the shopping cart
-  - Calculating the total cost of items in the cart
-  - Applying discounts or coupons
-  - Finalizing purchases
+  - `addToCart`: Adding products to the shopping cart
+  - `removeFromCart`: Removing products from the shopping cart
+  - `calculateTotal`: Calculating the total cost of items in the cart
+  - `checkout`: Finalizing purchases
 - **User Accounts:**
-  - Creating and managing customer accounts
-  - Tracking purchase history and order details
-  - Providing secure login and password management
-- **Employee Management:**
-  - Adding and removing employees
-  - Assigning roles and permissions
-  - Managing employee schedules and tasks
+  - `createAccount`: Creating customer accounts
+  - `manageAccount`: Managing customer accounts
+  - `viewPurchaseHistory`: Tracking purchase history and order details
+  - `login`: Providing secure login and password management
 
-MarketONE offers a robust and efficient solution for both customers and businesses, providing a seamless online shopping experience.
 <br>
 
 ## 📂 Installation and Usage
@@ -57,13 +53,20 @@ MarketONE offers a robust and efficient solution for both customers and business
    ```bash
    cd MarketONE-UNIFACOL
    ```
-3. Execute `Main.java`
+3. Compile the project:
+   ```bash
+   javac Main.java
+   ```
+4. Execute the main class:
+   ```bash
+   java -cp Main
+   ```
 <br>
 
 ## 🧮 Diagram
 
 <details>
-  <summary>Aplication Diagram</summary>
+  <summary>Application Diagram</summary>
 
 <img src="image/MarketONEDiagrama.png" alt="Diagram full version">
 </details>

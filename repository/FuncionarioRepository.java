@@ -6,7 +6,7 @@ import models.Funcionario;
 public class FuncionarioRepository {
   static ArrayList<Funcionario> funcionarios = new ArrayList<>();
   
-    public void adicionarFuncionario(Funcionario funcionario) {
+    public static void adicionarFuncionario(Funcionario funcionario) {
       funcionarios.add(funcionario);
     }
   

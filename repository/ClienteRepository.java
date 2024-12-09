@@ -6,7 +6,7 @@ import models.Cliente;
 public class ClienteRepository {
   static ArrayList<Cliente> clientes = new ArrayList<>();
 
-  public void adicionarCliente(Cliente cliente) {
+  public static void adicionarCliente(Cliente cliente) {
     clientes.add(cliente);
   }
 

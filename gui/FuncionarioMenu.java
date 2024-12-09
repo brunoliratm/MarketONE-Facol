@@ -2,7 +2,7 @@ package gui;
 
 import java.util.Scanner;
 import models.Funcionario;
-import models.Produto;
+import services.FuncionarioService;
 import services.ProdutoService;
 
 public class FuncionarioMenu {
@@ -23,19 +23,23 @@ public class FuncionarioMenu {
 
         switch (opcao) {
             case "1":
-                listarProdutos();
+                FuncionarioService.listarProdutos();
+                menu(sc, funcionario);
                 break;
             case "2":
-                adicionarProduto(sc);
+                FuncionarioService.adicionarProduto(sc);
+                menu(sc, funcionario);
                 break;
             case "3":
-                editarProduto(sc);
+                FuncionarioService.editarProduto(sc);
+                menu(sc, funcionario);
                 break;
             case "4":
-                removerProduto(sc);
+                FuncionarioService.removerProduto(sc);
+                menu(sc, funcionario);
                 break;
             case "5":
-                System.out.println("Listar clientes");
+
                 break;
             case "6":
                 System.out.println("Remover cliente");
@@ -55,52 +59,5 @@ public class FuncionarioMenu {
         }
     }
 
-    private static void listarProdutos() {
-        for (Produto produto : produtoService.listarProdutos()) {
-            System.out.println("ID: " + produto.getId());
-            System.out.println("Nome: " + produto.getNome());
-            System.out.println("Preço: " + produto.getPreco());
-            System.out.println("Quantidade: " + produto.getQuantidade());
-            System.out.println("Marca: " + produto.getMarca());
-            System.out.println();
-        }
-    }
-
-    private static void adicionarProduto(Scanner sc) {
-        System.out.println("Adicionar produto");
-        System.out.print("Nome: ");
-        String nome = sc.next();
-        System.out.print("Preço: ");
-        float preco = sc.nextFloat();
-        System.out.print("Quantidade: ");
-        int quantidade = sc.nextInt();
-        System.out.print("Marca: ");
-        String marca = sc.next();
-        produtoService.adicionarProduto(nome, preco, quantidade, marca);
-        System.out.println("Produto adicionado com sucesso!");
-    }
-
-    private static void editarProduto(Scanner sc) {
-        System.out.println("Editar produto");
-        System.out.print("ID: ");
-        int id = sc.nextInt();
-        System.out.print("Nome: ");
-        String nome = sc.next();
-        System.out.print("Preço: ");
-        float preco = sc.nextFloat();
-        System.out.print("Quantidade: ");
-        int quantidade = sc.nextInt();
-        System.out.print("Marca: ");
-        String marca = sc.next();
-        produtoService.editarProduto(id, nome, preco, quantidade, marca);
-        System.out.println("Produto editado com sucesso!");
-    }
-
-    private static void removerProduto(Scanner sc) {
-        System.out.println("Remover produto");
-        System.out.print("ID: ");
-        int id = sc.nextInt();
-        produtoService.removerProduto(id);
-        System.out.println("Produto removido com sucesso!");
-    }
+    
 }
