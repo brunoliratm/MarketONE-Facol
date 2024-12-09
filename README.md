@@ -1,13 +1,11 @@
 <div align="center" text-align="center">
     <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Market%20ONE&reversal=false">
     <br>
-    <p></p>
-        <a href="https://github.com/brunoliratm/MarketONE-UNIFACOL/issues">
-            <img src="https://img.shields.io/github/issues/brunoliratm/MarketONE-UNIFACOL?style=for-the-badge" alt="Issues">
-        </a>
-        <a href="https://github.com/brunoliratm/MarketONE-UNIFACOL/blob/main/LICENSE">
-            <img src="https://img.shields.io/github/license/brunoliratm/MarketONE-UNIFACOL?style=for-the-badge" alt="License">
-        </a>
+    <p>
+    <a href="https://github.com/brunoliratm/MarketONE-Facol">
+        <img src="https://img.shields.io/github/issues/brunoliratm/MarketONE-Facol?style=for-the-badge" alt="Issues">
+        <img src="https://img.shields.io/github/license/brunoliratm/MarketONE-Facol?style=for-the-badge" alt="License">
+    </a>
     </p>
     <br>
     This repository contains the source code for MarketONE, a market system implemented in Java as part of a 🏫college project at UNIFACOL.
@@ -47,7 +45,7 @@ MarketONE is a Java-based application that simulates a comprehensive market syst
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/brunoliratm/MarketONE-UNIFACOL.git
+   git clone https://github.com/brunoliratm/MarketONE-Facol.git
    ```
 2. Navigate to the project directory:
    ```bash
